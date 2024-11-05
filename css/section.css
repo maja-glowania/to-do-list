@@ -46,8 +46,8 @@
 }
 
 .section__button:active {
-  border: 2px solid black;
-  border-radius: 2px;
+  border: 1.5px solid black;
+  border-radius: 3px;
 }
 
 .section__buttonRemove {
