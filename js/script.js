@@ -64,7 +64,7 @@
     event.preventDefault();
 
     const newTaskInput = document.querySelector(".js-newTask");
-    const newTaskContent = newTaskInput.ariaValueMax.trim();
+    const newTaskContent = newTaskInput.value.trim();
 
     if (newTaskContent === "") {
       newTaskInput.focus();
@@ -78,6 +78,7 @@
 
   const init = () => {
     render();
+
     const form = document.querySelector(".js-form");
     form.addEventListener = ("sumbit", onFormSubmit);
   };
