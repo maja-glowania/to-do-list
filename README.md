@@ -2,7 +2,7 @@
 
 ## About
 
-This site is created to help you with managing your daily tasks. You can add new tasks, mark tasks as checked or delete any of them. With this site your tasks will be easier to control and manage. _Remember_: start with the quickest and easiest tasks to overcome a procrastination.
+This site is created to help you with managing your daily tasks. You can add new tasks, mark tasks as checked or delete any of them. With this site your tasks will be easier to control and manage. **Remember**: start with the quickest and easiest tasks to overcome a procrastination.
 
 ## Demo
 
