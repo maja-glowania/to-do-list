@@ -2,13 +2,20 @@
 
 ## About
 
-This site is created to help you with managing your daily tasks. You can add new tasks, mark tasks as checked or delete any of them. With this site your tasks will be easier to control and manage. **Remember**: start with the quickest and easiest tasks to overcome a procrastination.
+Hi! Welcome to one of my first sites, which was created to help you manage your daily tasks. You can add new tasks, mark them as completed, or delete them.
+
+**Remember**: start with the quickest and easiest tasks to overcome procrastination.
+
+**Key Features:**
+* Quick Control: Easily add, check, and delete tasks.
+* Bulk Operations: A button to mark all tasks as completed.
+* Filtering: A button to hide all completed tasks.
 
 ## Demo
 
 https://maja-glowania.github.io/to-do-list/
 
-![site-gif](https://github.com/user-attachments/assets/d839a5e7-a11f-4a73-976b-6f03aebdf0b3)
+![to-do-list](https://github.com/user-attachments/assets/294dfe66-4544-448b-b40a-5a43e2d02e7a)
 
 ## Technologies
 
@@ -16,3 +23,4 @@ https://maja-glowania.github.io/to-do-list/
 - CSS
 - Java Script
 - BEM Convention
+- Alternative Box Model
