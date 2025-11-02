@@ -11,45 +11,54 @@
   border-bottom: 1px solid #ddd;
 }
 
+.section__header--withButtons {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+@media (max-width: 767px) {
+  .section__header--withButtons {
+    flex-direction: column-reverse;
+    align-items: flex-start;
+    gap: 10px;
+  }
+}
+
+.section__tittle {
+  margin: 0;
+  font-size: 20px;
+}
+
 .section__container {
   padding: 20px;
 }
 
-.section__list {
-  list-style: none;
-  margin: 0px;
-  padding: 0px;
-}
-
-.section__listItem {
-  display: grid;
-  grid-template-columns: auto 1fr auto;
-  align-items: center;
-  grid-gap: 10px;
-  padding: 10px;
-  border-bottom: 1px solid #ddd;
-}
-
-.section__listItem--done {
-  text-decoration: line-through;
+.section__buttons {
+  display: flex;
+  margin-left: auto;
+  gap: 10px;
 }
 
 .section__button {
-  background-color: green;
-  color: white;
-  text-decoration: none;
+  background: none;
   border: none;
-  width: 30px;
-  height: 30px;
-  margin: 5px;
-  padding: 0px;
+  color: rgb(0, 128, 128);
+  font-size: 14px;
+  cursor: pointer;
+  padding: 0;
+  transition: color 0.5s;
+  user-select: none;
 }
 
-.section__button:active {
-  border: 1.5px solid black;
-  border-radius: 3px;
+.section__button:hover {
+  transition: 1s;
+  color: rgb(1, 180, 180);
 }
 
-.section__buttonRemove {
-  background-color: red;
+.section__button:disabled {
+  color: rgb(204, 204, 204);
+  cursor: default;
 }
