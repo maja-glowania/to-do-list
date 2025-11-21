@@ -35,30 +35,3 @@
 .section__container {
   padding: 20px;
 }
-
-.section__buttons {
-  display: flex;
-  margin-left: auto;
-  gap: 10px;
-}
-
-.section__button {
-  background: none;
-  border: none;
-  color: rgb(0, 128, 128);
-  font-size: 14px;
-  cursor: pointer;
-  padding: 5px;
-  transition: color 0.5s;
-  user-select: none;
-}
-
-.section__button:hover {
-  transition: 1s;
-  color: rgb(1, 180, 180);
-}
-
-.section__button:disabled {
-  color: rgb(204, 204, 204);
-  cursor: default;
-}
