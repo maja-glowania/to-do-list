@@ -1,6 +1,8 @@
 @media (max-width: 767px) {
-  .section__button {
+  .section__buttons {
     flex-basis: 100%;
+    flex-direction: column;
+    width: 100%;
     margin: 10px;
   }
 }
